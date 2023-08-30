@@ -15,36 +15,48 @@ Como miembros de una consultora de análisis de datos hemos sido convocados para
 
 [![position.jpg](https://i.postimg.cc/TYF7VjXs/position.jpg)](https://postimg.cc/gnyHdZjy) 
 
-<h2>Objetivos Claves y Problemáticas a Cubrir:</h2>
-Navegar por el vasto mundo de opiniones de usuarios en plataformas como Yelp y Google Maps requiere de estrategias bien estructuradas. Aquí, presentaremos un plan en cinco fases para asegurar que nuestro proyecto de análisis y recomendaciones logre plasmar el camino ideal a seguir, abordando diversos aspectos y desafíos:
+<h2>Objetivos Clave y Desafíos a Abordar:</h2>
+Navegar por el vasto mundo de opiniones de usuarios en plataformas como Yelp y Google Maps demanda enfoques bien definidos. Presentamos un plan en cinco fases para asegurar que nuestro proyecto de análisis y recomendaciones trace el camino ideal, abordando múltiples aspectos y desafíos. La problemática se centra en la recopilación, procesamiento y análisis de datos en los cinco estados con mayor atractivo natural y paisajístico de los Estados Unidos, con el propósito de comprender las opiniones de los usuarios, anticipar tendencias de crecimiento o declive en el sector de restaurantes, seleccionar ubicaciones estratégicas y desarrollar un sistema de recomendación personalizado para los usuarios.
 
 <h4>Fase 1:</h4> 
-Análisis de Sentimiento para Tendencias de Crecimiento y Declive
+Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
 Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios a evaluar pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
 
 <h4>Fase 2:</h4> 
-Localización Estratégica de Nuevos Establecimientos
+Localización Estratégica de Nuevos Establecimientos:<br>
 Al incorporar el análisis de sentimiento, identificaremos las áreas geográficas ideales para establecer nuevos locales de restaurantes y negocios afines. Al comprender las preferencias y expectativas de los consumidores en diferentes ubicaciones, garantizaremos que nuestro cliente logre expandir su presencia en los mercados de manera inteligente.
 
 <h4>Fase 3:</h4> 
-Sistemas de Recomendación Inteligentes para Usuarios
-Desarrollaremos un sistema de recomendación innovador para los usuarios de ambas plataformas. El mismo se basará en los resultados del análisis de sentimiento y en el perfíl del usuario, brindando a los mismos opciones a elección personalizadas que enriquecerán su experiencia al descubrir contenido relevante y emocionante que de otro modo podrían haber pasado por alto.
-
-<h4>Fase 4:</h4> 
-Análisis Cruzados para Perspectivas Más Profundas
+Análisis Cruzados para Perspectivas Más Profundas:<br>
 Ampliaremos nuestro enfoque mediante el análisis cruzado de datos. Incorporaremos fuentes adicionales, como las cotizaciones en bolsa y las tendencias en redes sociales, para enriquecer nuestros insights. Esto nos permitirá comprender mejor el contexto económico y social que rodea a los negocios y las decisiones de los consumidores.
 
+<h4>Fase 4:</h4> 
+Sistemas de Recomendación Inteligentes para Usuarios:<br>
+Desarrollaremos un sistema de recomendación innovador para los usuarios de ambas plataformas. El mismo se basará en los resultados del análisis de sentimiento y en el perfíl del usuario, brindando a los mismos opciones a elección personalizadas que enriquecerán su experiencia al descubrir contenido relevante y emocionante que de otro modo podrían haber pasado por alto.
+
 <h4>Fase 5:</h4> 
-Recomendaciones Accionables e Informe Completo
+Recomendaciones Accionables e Informe Completo:<br>
 Generaremos recomendaciones específicas y basadas en evidencia, respaldadas por nuestro análisis detallado. Completaremos nuestro proyecto con un informe exhaustivo que detalla cada fase del proceso, los resultados obtenidos y las recomendaciones propuestas, proporcionando un recurso invaluable para la toma de decisiones futuras.
+
+<h2>Estados:</h2>
+Hemos centrado nuestro análisis en los cinco estados con los valores más altos de PBI per cápita en los Estados Unidos. Estos datos fueron obtenidos utilizando técnicas de Web Scraping a través de la página de Wikipedia. Los estados elegidos son: <br><br>
+
+Distrito de Columbia<br>
+Delaware<br>
+Alaska<br>
+Connecticut<br>
+Wyoming<br><br>
+Cada uno de estos estados destaca por su alto PBI per cápita, lo que nos permite explorar patrones y tendencias económicas específicas.
+
 
 <h2>Recopilación y Filtrado de Datos:</h2>
 Generaremos una base de datos fusionando datos estáticos facilitados por Henry y datos que extraeremos mediante el uso de diversas APIs.
 
 <h2>Fuentes de Datos</h2>
-Conjunto de Datos de Google Maps
-Conjunto de Datos de Yelp
-Conjunto de Datos de APIs
+Datos Estáticos de Google Maps<br>
+Datos Estáticos de Yelp<br>
+Datos de APIs (Binance) <br>
+Datos de Web Scraping (Wikipedia)
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
