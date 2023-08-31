@@ -2,10 +2,10 @@
 <h1 style="color:red"><center>Yelp & Google Maps - Opiniones y Recomendaciones</center></h1>
 <h1 style="color:red"><center>Proyecto Grupal</center></h1>
 <h2>Integrantes:</h2>
-Marles Rodríguez Iovan Dario<br>
-Masat Brian Emiliano<br>
-Pernett Garcia Alberto Mario<br>
-Tejerina Calalanis Juan Matias<br>
+Marles Rodríguez Iovan Dario - Data Analyst<br>
+Masat Brian Emiliano - Data Engineer<br>
+Pernett Garcia Alberto Mario - Supply Chain Analyst<br>
+Tejerina Calalanis Juan Matias - Machine Learning Engineer<br>
 
 <h2>Marco de Referencia:</h2>
 La voz de los usuarios es una fuente de datos en constante expansión gracias a las plataformas de reseñas. La capacidad de analizar estas opiniones se ha convertido en un recurso crucial para la formulación de estrategias de mercado efectivas. Yelp, una plataforma global de reseñas que abarca diversos sectores, la cual ha democratizado la retroalimentación del consumidor. Aquí, los usuarios expresan sus vivencias y recomendaciones. Esta información es un recurso inestimable para las empresas, pues brinda perspicacia sobre la percepción del usuario, evaluando desempeño y detectando áreas de mejora. En paralelo, Google Maps, con su integrada plataforma de reseñas, desempeña un papel similar. Los usuarios confían en estas críticas para tomar decisiones sobre dónde comer, dormir, que lugares visitar y mucho más. Estos datos son una mina de oro para las empresas, ya que proporcionan una visión objetiva de su desempeño y oportunidades para optimizar sus servicios.
@@ -15,47 +15,44 @@ Como miembros de una consultora de análisis de datos hemos sido convocados para
 
 [![position.jpg](https://i.postimg.cc/TYF7VjXs/position.jpg)](https://postimg.cc/gnyHdZjy) 
 
-<h2>Objetivos Clave y Desafíos a Abordar:</h2>
-Navegar por el vasto mundo de opiniones de usuarios en plataformas como Yelp y Google Maps demanda enfoques bien definidos. Presentamos un plan en cinco fases para asegurar que nuestro proyecto de análisis y recomendaciones trace el camino ideal, abordando múltiples aspectos y desafíos. La problemática se centra en la recopilación, procesamiento y análisis de datos en los cinco estados con mayor atractivo natural y paisajístico de los Estados Unidos, con el propósito de comprender las opiniones de los usuarios, anticipar tendencias de crecimiento o declive en el sector de restaurantes, seleccionar ubicaciones estratégicas y desarrollar un sistema de recomendación personalizado para los usuarios.
+<h2>Objetivos Claves y Problemática a Abordar:</h2>
+Navegar por el vasto mundo de opiniones de usuarios en plataformas como Yelp y Google Maps demanda enfoques bien definidos. Presentamos un plan en cuatro fases para asegurar que nuestro proyecto de análisis y recomendaciones trace el camino ideal, abordando múltiples aspectos y desafíos. El objetivo se centra en la recopilación, procesamiento y análisis de datos en los cinco estados con mayor atractivo natural y paisajístico de los Estados Unidos, con el propósito de comprender las opiniones de los usuarios, anticipar tendencias de crecimiento o declive en el sector de restaurantes, seleccionar ubicaciones estratégicas y desarrollar un sistema de recomendación personalizado para los usuarios. Mientras que la problemática efectiva es la cantidad de tiempo que las personas le dedican a poder decidir a que lugar ir y a cual no.
 
 <h4>Fase 1:</h4> 
 Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
-Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios a evaluar pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
+Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
 
 <h4>Fase 2:</h4> 
 Localización Estratégica de Nuevos Establecimientos:<br>
 Al incorporar el análisis de sentimiento, identificaremos las áreas geográficas ideales para establecer nuevos locales de restaurantes y negocios afines. Al comprender las preferencias y expectativas de los consumidores en diferentes ubicaciones, garantizaremos que nuestro cliente logre expandir su presencia en los mercados de manera inteligente.
 
 <h4>Fase 3:</h4> 
-Análisis Cruzados para Perspectivas Más Profundas:<br>
-Ampliaremos nuestro enfoque mediante el análisis cruzado de datos. Incorporaremos fuentes adicionales, como las cotizaciones en bolsa y las tendencias en redes sociales, para enriquecer nuestros insights. Esto nos permitirá comprender mejor el contexto económico y social que rodea a los negocios y las decisiones de los consumidores.
-
-<h4>Fase 4:</h4> 
 Sistemas de Recomendación Inteligentes para Usuarios:<br>
 Desarrollaremos un sistema de recomendación innovador para los usuarios de ambas plataformas. El mismo se basará en los resultados del análisis de sentimiento y en el perfíl del usuario, brindando a los mismos opciones a elección personalizadas que enriquecerán su experiencia al descubrir contenido relevante y emocionante que de otro modo podrían haber pasado por alto.
 
-<h4>Fase 5:</h4> 
+<h4>Fase 4:</h4> 
 Recomendaciones Accionables e Informe Completo:<br>
 Generaremos recomendaciones específicas y basadas en evidencia, respaldadas por nuestro análisis detallado. Completaremos nuestro proyecto con un informe exhaustivo que detalla cada fase del proceso, los resultados obtenidos y las recomendaciones propuestas, proporcionando un recurso invaluable para la toma de decisiones futuras.
 
 <h2>Estados:</h2>
-Hemos centrado nuestro análisis en los cinco estados con los valores más altos de PBI per cápita en los Estados Unidos. Estos datos fueron obtenidos utilizando técnicas de Web Scraping a través de la página de Wikipedia. Los estados elegidos son: <br><br>
+Hemos centrado nuestro análisis en los cinco estados con los valores más altos de PBI en los Estados Unidos. Estos datos fueron obtenidos utilizando técnicas de Web Scraping a través de la página de Wikipedia. Los estados elegidos son: <br><br>
 
-Distrito de Columbia<br>
-Delaware<br>
-Alaska<br>
-Connecticut<br>
-Wyoming<br><br>
+[![states.jpg](https://i.postimg.cc/MZ0PVkZ4/states.jpg)](https://postimg.cc/Hjx91hy4)
+
+California<br>
+Texas<br>
+New York<br>
+Florida<br>
+Illinois<br><br>
 Cada uno de estos estados destaca por su alto PBI per cápita, lo que nos permite explorar patrones y tendencias económicas específicas.
 
 
 <h2>Recopilación y Filtrado de Datos:</h2>
-Generaremos una base de datos fusionando datos estáticos facilitados por Henry y datos que extraeremos mediante el uso de diversas APIs.
+Generaremos una base de datos fusionando datos estáticos facilitados por Henry y datos que extraeremos mediante técnicas de Web Scraping.
 
 <h2>Fuentes de Datos</h2>
 Datos Estáticos de Google Maps<br>
 Datos Estáticos de Yelp<br>
-Datos de APIs (Binance) <br>
 Datos de Web Scraping (Wikipedia)
 
 <h2>Aclaración:</h2>
