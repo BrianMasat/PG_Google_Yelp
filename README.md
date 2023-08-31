@@ -10,13 +10,15 @@ Tejerina Calalanis Juan Matias - Machine Learning Engineer<br>
 <h2>Marco de Referencia:</h2>
 La voz de los usuarios es una fuente de datos en constante expansión gracias a las plataformas de reseñas. La capacidad de analizar estas opiniones se ha convertido en un recurso crucial para la formulación de estrategias de mercado efectivas. Yelp, una plataforma global de reseñas que abarca diversos sectores, la cual ha democratizado la retroalimentación del consumidor. Aquí, los usuarios expresan sus vivencias y recomendaciones. Esta información es un recurso inestimable para las empresas, pues brinda perspicacia sobre la percepción del usuario, evaluando desempeño y detectando áreas de mejora. En paralelo, Google Maps, con su integrada plataforma de reseñas, desempeña un papel similar. Los usuarios confían en estas críticas para tomar decisiones sobre dónde comer, dormir, que lugares visitar y mucho más. Estos datos son una mina de oro para las empresas, ya que proporcionan una visión objetiva de su desempeño y oportunidades para optimizar sus servicios.
 
-<h2>Rol y Compromiso:</h2>
+<h2>Rol:</h2>
 Como miembros de una consultora de análisis de datos hemos sido convocados para examinar el mercado estadounidense en profundidad. Nuestro cliente pertenece a un conglomerado de negocios que abarcan la industria de restaurantes y servicios afines. Nuestra misión es llevar a cabo un análisis en profundidad de las opiniones de usuarios en Yelp y Google Maps sobre hoteles, restaurantes y otros emprendimientos turísticos y de entretenimiento. Mediante técnicas avanzadas de análisis de sentimientos, aspiramos a pronosticar las áreas de negocios que experimentarán crecimiento o declive. También deseamos identificar ubicaciones estratégicas para establecer nuevas sucursales y crear un sistema de recomendación personalizado para los usuarios de ambas plataformas. Esto permitirá a los usuarios descubrir lugares basados en las experiencias previas que han tenido otras personas.
 
 [![position.jpg](https://i.postimg.cc/TYF7VjXs/position.jpg)](https://postimg.cc/gnyHdZjy) 
 
-<h2>Objetivos Claves y Problemática a Abordar:</h2>
-Navegar por el vasto mundo de opiniones de usuarios en plataformas como Yelp y Google Maps demanda enfoques bien definidos. Presentamos un plan en cuatro fases para asegurar que nuestro proyecto de análisis y recomendaciones trace el camino ideal, abordando múltiples aspectos y desafíos. El objetivo se centra en la recopilación, procesamiento y análisis de datos en los cinco estados con mayor atractivo natural y paisajístico de los Estados Unidos, con el propósito de comprender las opiniones de los usuarios, anticipar tendencias de crecimiento o declive en el sector de restaurantes, seleccionar ubicaciones estratégicas y desarrollar un sistema de recomendación personalizado para los usuarios. Mientras que la problemática efectiva es la cantidad de tiempo que las personas le dedican a poder decidir a que lugar ir y a cual no.
+<h2>Problemática a Abordar:</h2>
+Navegar por el vasto océano de opiniones de usuarios en plataformas como Yelp y Google Maps demanda tiempo que es considerado como un recurso escaso, el cual en muchas ocasiones lleva a las personas a tomar decisiones erroneas al momento de decidir a que lugar ir y a cual no. Como asesores presentamos un plan de cuatro fases para asegurar que nuestro proyecto de análisis y recomendaciones trace el camino ideal, ayudando a las personas a tomar la decisión correcta. Nuestro objetivo es la recopilación, procesamiento y análisis de datos en los cinco estados con mayor PBI total de los Estados Unidos, con el propósito de comprender las opiniones de los usuarios, anticipar tendencias de crecimiento o declive en el sector de restaurantes, seleccionar ubicaciones estratégicas y desarrollar un sistema de recomendación personalizado para los usuarios.
+
+<h2>Fases:</h2>
 
 <h4>Fase 1:</h4> 
 Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
@@ -54,6 +56,25 @@ Generaremos una base de datos fusionando datos estáticos facilitados por Henry 
 Datos Estáticos de Google Maps<br>
 Datos Estáticos de Yelp<br>
 Datos de Web Scraping (Wikipedia)
+
+<h2>Stack tecnológico</h2>
+
+[![stack-tecnologico.jpg](https://i.postimg.cc/ryRG7jyq/stack-tecnologico.jpg)](https://postimg.cc/5j1FCwFr)
+Git: Sistema de control de versiones distribuido, para el seguimiento de cambios en el código fuente<br>
+Github: Alojamiento de nuestro repositorio<br>
+Visual Studio Code: Software para trabajar de forma local en el proyecto<br>
+Google Drive: Servicio de Google para alma de forma provisoria nuestros archivos<br>
+AWS: Plataforma de computación en la nube que ofrece una amplia gama de servicios de infraestructura y aplicaciones en la nube<br>
+Airflow: Plataforma para automatización de flujos de trabajo<br>
+Python: Lenguaje de programación usado para ciencia de datos<br>
+Pandas: Libreria escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
+Spark: Marco de procesamiento de datos en clúster de grandes volumenes de datos<br>
+PySpark: Interfaz de programación en Python para Apache Spark<br>
+Koalas: Librería que combina la simplicidad de Pandas con el poder de Spark<br>
+Matplotlib: Libreria en Python para crear visualizaciones de nuestros datos<br>
+Seaborn: Libreria de visualización de datos de Python basada en matplotlib<br>
+Scikit-learn: Libreria de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
+TensorFlow: Biblioteca de aprendizaje automático y redes neuronales<br>
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
