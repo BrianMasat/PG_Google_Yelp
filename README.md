@@ -23,6 +23,8 @@ Navegar por el vasto océano de opiniones de usuarios en plataformas como Yelp y
 <h4>Fase 1:</h4> 
 Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
 Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
+Para esto se plantea la creacion de un índice de sentimiento que es una medida que se utiliza para determinar la polaridad o el tono emocional de un texto. En este caso, la biblioteca NLTK (Natural Language Toolkit) proporciona una función que utiliza un enfoque basado en reglas para analizar el sentimiento de un texto.
+El analizador de sentimientos de NLTK asigna puntajes a diferentes aspectos del texto, como las palabras y las frases, y luego combina estos puntajes para calcular un puntaje de sentimiento compuesto. Este puntaje compuesto oscila entre -1 y 1, donde los valores cercanos a 1 indican un sentimiento positivo, los valores cercanos a -1 indican un sentimiento negativo y los valores cercanos a 0 indican un sentimiento neutral.
 
 <h4>Fase 2:</h4> 
 Localización Estratégica de Nuevos Establecimientos:<br>
