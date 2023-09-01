@@ -59,12 +59,12 @@ Definición: Medir el crecimiento porcentual de la cantidad de reseñas recibida
 Fórmula: ((Cantidad de reseñas del periodo actual - Cantidad de reseñas del periodo anterior) / Cantidad de reseñas del periodo anterior) * 100. <br>
 Objetivo: Identificar el crecimiento en la cantidad de reseñas recibidas, lo que puede indicar el nivel de participación y la satisfacción de los clientes con el negocio. Un aumento constante en las reseñas puede ser un indicador de una mayor visibilidad y reputación en línea. <br><br>
 
-<h4>Variación Porcentual del Promedio del Puntaje por Categorías:</h4>
+<h4>Variación Porcentual del Promedio del Puntaje:</h4>
 Definición: Evaluar cómo varían los puntajes promedio de las categorías de servicio de un mes a otro.<br>
 Fórmula: ((Puntaje promedio del periodo actual - Puntaje promedio del periodo anterior) / Puntaje promedio del periodo anterior) * 100.<br>
 Objetivo: Identificar tendencias de mejora o declive en la calidad de los distintos tipos de servicios.<br><br>
 
-<h4>Variación Porcentual del Promedio del Indice de Sentimiento por Estado y Tipo de Categoría:</h4>
+<h4>Variación Porcentual del Promedio del Indice de Sentimiento:</h4>
 Definición: Evalua la distribucion de la variación en el promedio del indice de sentimiento de las reseñas.<br>
 Fórmula: ((Promedio del Indice de Sentimiento del periodo actual - Promedio del Indice de Sentimiento del periodo anterior) / Promedio del Indice de Sentimiento del periodo anterior) * 100.<br>
 Objetivo: Identificar cambios en la percepción de los usuarios en diferentes categorías y estados.<br><br>
