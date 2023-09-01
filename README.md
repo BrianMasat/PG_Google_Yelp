@@ -48,13 +48,35 @@ Florida<br>
 Illinois<br><br>
 Cada uno de estos estados destaca por su alto PBI per cápita, lo que nos permite explorar patrones y tendencias económicas específicas.
 
+<h2>KPIs</h2>
+<h4>Puntaje Promedio por Categoría de Servicio:</h4>
+Definición: Medir la calidad percibida por los usuarios en diferentes categorías de servicio.<br>
+Fórmula: (Suma de todos los puntajes de una categoría / la cantidad de reseñas en esa categoría).<br>
+Objetivo: Observar que el puntaje de las categorías en las que se podría invertir se mantengan de manera constante en el tiempo entre 4 y 5 estrellas.<br><br>
 
-<h2>Recopilación y Filtrado de Datos:</h2>
-Generaremos una base de datos fusionando datos estáticos facilitados por Henry y datos que extraeremos mediante técnicas de Web Scraping.
+<h4>Variación Porcentual Mensual por Categorías:</h4>
+Definición: Evaluar cómo varían los puntajes promedio de las categorías de servicio de un mes a otro.<br>
+Fórmula: ((Puntaje promedio actual - Puntaje promedio del mes anterior) / Puntaje promedio del mes anterior) * 100.<br>
+Objetivo: Identificar tendencias de mejora o declive en la calidad de los distintos tipos de servicios mensualmente.<br><br>
 
-<h2>Fuentes de Datos</h2>
-Datos Estáticos de Google Maps<br>
-Datos Estáticos de Yelp<br>
+<h4>Tasa de Retención de Clientes:</h4>
+Definición: Medir la proporción de clientes que han regresado a un negocio después de su primera visita.<br>
+Fórmula: (Clientes que regresaron / Total de clientes) * 100<br>
+Objetivo: Detectar tasas de retención de clientes superior al 70% para demostrar la capacidad del negocio en generar lealtad.<br><br>
+
+<h4>Variación Porcentual Sentimental por Estado y Tipo de Categoría:</h4>
+Definición: Evaluar si la variación en el sentimiento de las reseñas está relacionada con el PBI de cada estado.<br>
+Fórmula: ((Sentimiento actual - Sentimiento anterior) / Sentimiento anterior) * 100.<br>
+Objetivo: Identificar cambios en la percepción de los usuarios en diferentes categorías y estados.<br><br>
+
+<h4>Variación Porcentual Sentimental por Estado sobre el Total del PBI:</h4>
+Definición: Evaluar si la variación en el sentimiento de las reseñas está relacionada con el crecimiento económico de un estado. <br>
+Fórmula: (((Sentimiento actual - Sentimiento anterior) / Sentimiento anterior) * 100 / Crecimiento porcentual del PBI).<br>
+Objetivo: Observar una tendencia de sentimiento positivo en las diferentes categorías de negocio y estado a invertir por encima del 70% anualmente.<br><br>
+
+<h2>Recopilación y Fuentes de Datos</h2>
+Datos Estáticos de Google Maps (Henry)<br>
+Datos Estáticos de Yelp (Henry)<br>
 Datos de Web Scraping (Wikipedia)
 
 <h2>Stack tecnológico</h2>
@@ -67,25 +89,15 @@ Google Drive: Servicio de Google para alma de forma provisoria nuestros archivos
 AWS: Plataforma de computación en la nube que ofrece una amplia gama de servicios de infraestructura y aplicaciones en la nube<br>
 Airflow: Plataforma para automatización de flujos de trabajo<br>
 Python: Lenguaje de programación usado para ciencia de datos<br>
-Pandas: Libreria escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
+Pandas: Librería escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
 Spark: Marco de procesamiento de datos en clúster de grandes volumenes de datos<br>
 PySpark: Interfaz de programación en Python para Apache Spark<br>
 Koalas: Librería que combina la simplicidad de Pandas con el poder de Spark<br>
-Matplotlib: Libreria en Python para crear visualizaciones de nuestros datos<br>
-Seaborn: Libreria de visualización de datos de Python basada en matplotlib<br>
-Scikit-learn: Libreria de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
+Matplotlib: Librería en Python para crear visualizaciones de nuestros datos<br>
+Seaborn: Librería de visualización de datos de Python basada en matplotlib<br>
+Scikit-learn: Librería de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
 TensorFlow: Biblioteca de aprendizaje automático y redes neuronales<br>
+NLTK: Librería para el procesamiento del lenguaje natural especializada en textos <br>
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
-
-
-
-
-
-
-
-
-
-
-
