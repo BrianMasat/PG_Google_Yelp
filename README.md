@@ -23,6 +23,8 @@ Navegar por el vasto océano de opiniones de usuarios en plataformas como Yelp y
 <h4>Fase 1:</h4> 
 Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
 Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
+Para esto se plantea la creacion de un índice de sentimiento que es una medida que se utiliza para determinar la polaridad o el tono emocional de un texto. En este caso, la biblioteca NLTK (Natural Language Toolkit) proporciona una función que utiliza un enfoque basado en reglas para analizar el sentimiento de un texto.
+El analizador de sentimientos de NLTK asigna puntajes a diferentes aspectos del texto, como las palabras y las frases, y luego combina estos puntajes para calcular un puntaje de sentimiento compuesto. Este puntaje compuesto oscila entre -1 y 1, donde los valores cercanos a 1 indican un sentimiento positivo, los valores cercanos a -1 indican un sentimiento negativo y los valores cercanos a 0 indican un sentimiento neutral.
 
 <h4>Fase 2:</h4> 
 Localización Estratégica de Nuevos Establecimientos:<br>
@@ -49,30 +51,26 @@ Illinois<br><br>
 Cada uno de estos estados destaca por su alto PBI per cápita, lo que nos permite explorar patrones y tendencias económicas específicas.
 
 <h2>KPIs</h2>
-<h4>Puntaje Promedio por Categoría de Servicio:</h4>
-Definición: Medir la calidad percibida por los usuarios en diferentes categorías de servicio.<br>
-Fórmula: (Suma de todos los puntajes de una categoría / la cantidad de reseñas en esa categoría).<br>
-Objetivo: Observar que el puntaje de las categorías en las que se podría invertir se mantengan de manera constante en el tiempo entre 4 y 5 estrellas.<br><br>
-
-<h4>Variación Porcentual Mensual por Categorías:</h4>
-Definición: Evaluar cómo varían los puntajes promedio de las categorías de servicio de un mes a otro.<br>
-Fórmula: ((Puntaje promedio actual - Puntaje promedio del mes anterior) / Puntaje promedio del mes anterior) * 100.<br>
-Objetivo: Identificar tendencias de mejora o declive en la calidad de los distintos tipos de servicios mensualmente.<br><br>
-
 <h4>Tasa de Retención de Clientes:</h4>
 Definición: Medir la proporción de clientes que han regresado a un negocio después de su primera visita.<br>
 Fórmula: (Clientes que regresaron / Total de clientes) * 100<br>
 Objetivo: Detectar tasas de retención de clientes superior al 70% para demostrar la capacidad del negocio en generar lealtad.<br><br>
 
-<h4>Variación Porcentual Sentimental por Estado y Tipo de Categoría:</h4>
-Definición: Evaluar si la variación en el sentimiento de las reseñas está relacionada con el PBI de cada estado.<br>
-Fórmula: ((Sentimiento actual - Sentimiento anterior) / Sentimiento anterior) * 100.<br>
+<h4>Tasa de Crecimiento de Reseñas:</h4>
+Definición: Medir el crecimiento porcentual de la cantidad de reseñas recibidas en un período de tiempo determinado. <br>
+Fórmula: ((Cantidad de reseñas del periodo actual - Cantidad de reseñas del periodo anterior) / Cantidad de reseñas del periodo anterior) * 100. <br>
+Objetivo: Identificar el crecimiento en la cantidad de reseñas recibidas, lo que puede indicar el nivel de participación y la satisfacción de los clientes con el negocio. Un aumento constante en las reseñas puede ser un indicador de una mayor visibilidad y reputación en línea. <br><br>
+
+<h4>Variación Porcentual del Promedio del Puntaje:</h4>
+Definición: Evaluar cómo varían los puntajes promedio de las categorías de servicio de un mes a otro.<br>
+Fórmula: ((Puntaje promedio del periodo actual - Puntaje promedio del periodo anterior) / Puntaje promedio del periodo anterior) * 100.<br>
+Objetivo: Identificar tendencias de mejora o declive en la calidad de los distintos tipos de servicios.<br><br>
+
+<h4>Variación Porcentual del Promedio del Indice de Sentimiento:</h4>
+Definición: Evalua la distribucion de la variación en el promedio del indice de sentimiento de las reseñas.<br>
+Fórmula: ((Promedio del Indice de Sentimiento del periodo actual - Promedio del Indice de Sentimiento del periodo anterior) / Promedio del Indice de Sentimiento del periodo anterior) * 100.<br>
 Objetivo: Identificar cambios en la percepción de los usuarios en diferentes categorías y estados.<br><br>
 
-<h4>Variación Porcentual Sentimental por Estado sobre el Total del PBI:</h4>
-Definición: Evaluar si la variación en el sentimiento de las reseñas está relacionada con el crecimiento económico de un estado. <br>
-Fórmula: (((Sentimiento actual - Sentimiento anterior) / Sentimiento anterior) * 100 / Crecimiento porcentual del PBI).<br>
-Objetivo: Observar una tendencia de sentimiento positivo en las diferentes categorías de negocio y estado a invertir por encima del 70% anualmente.<br><br>
 
 <h2>Recopilación y Fuentes de Datos</h2>
 Datos Estáticos de Google Maps (Henry)<br>
