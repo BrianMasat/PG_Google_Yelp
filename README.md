@@ -23,6 +23,8 @@ Navegar por el vasto océano de opiniones de usuarios en plataformas como Yelp y
 <h4>Fase 1:</h4> 
 Análisis de Sentimiento para Tendencias de Crecimiento y Declive: <br>
 Implementaremos análisis de sentimientos para anticipar las direcciones en las que los diversos sectores de negocios pueden evolucionar. Esto nos permitirá identificar oportunidades de crecimiento y advertir sobre posibles declives, proporcionando una base sólida para decisiones estratégicas.
+Para esto se plantea la creacion de un índice de sentimiento que es una medida que se utiliza para determinar la polaridad o el tono emocional de un texto. En este caso, la biblioteca NLTK (Natural Language Toolkit) proporciona una función que utiliza un enfoque basado en reglas para analizar el sentimiento de un texto.
+El analizador de sentimientos de NLTK asigna puntajes a diferentes aspectos del texto, como las palabras y las frases, y luego combina estos puntajes para calcular un puntaje de sentimiento compuesto. Este puntaje compuesto oscila entre -1 y 1, donde los valores cercanos a 1 indican un sentimiento positivo, los valores cercanos a -1 indican un sentimiento negativo y los valores cercanos a 0 indican un sentimiento neutral.
 
 <h4>Fase 2:</h4> 
 Localización Estratégica de Nuevos Establecimientos:<br>
@@ -48,13 +50,31 @@ Florida<br>
 Illinois<br><br>
 Cada uno de estos estados destaca por su alto PBI per cápita, lo que nos permite explorar patrones y tendencias económicas específicas.
 
+<h2>KPIs</h2>
+<h4>Tasa de Retención de Clientes:</h4>
+Definición: Medir la proporción de clientes que han regresado a un negocio después de su primera visita.<br>
+Fórmula: (Clientes que regresaron / Total de clientes) * 100<br>
+Objetivo: Detectar tasas de retención de clientes superior al 70% para demostrar la capacidad del negocio en generar lealtad.<br><br>
 
-<h2>Recopilación y Filtrado de Datos:</h2>
-Generaremos una base de datos fusionando datos estáticos facilitados por Henry y datos que extraeremos mediante técnicas de Web Scraping.
+<h4>Tasa de Crecimiento de Reseñas:</h4>
+Definición: Medir el crecimiento porcentual de la cantidad de reseñas recibidas en un período de tiempo determinado. <br>
+Fórmula: ((Cantidad de reseñas del periodo actual - Cantidad de reseñas del periodo anterior) / Cantidad de reseñas del periodo anterior) * 100. <br>
+Objetivo: Identificar el crecimiento en la cantidad de reseñas recibidas, lo que puede indicar el nivel de participación y la satisfacción de los clientes con el negocio. Un aumento constante en las reseñas puede ser un indicador de una mayor visibilidad y reputación en línea. <br><br>
 
-<h2>Fuentes de Datos</h2>
-Datos Estáticos de Google Maps<br>
-Datos Estáticos de Yelp<br>
+<h4>Variación Porcentual del Promedio del Puntaje:</h4>
+Definición: Evaluar cómo varían los puntajes promedio de las categorías de servicio de un mes a otro.<br>
+Fórmula: ((Puntaje promedio del periodo actual - Puntaje promedio del periodo anterior) / Puntaje promedio del periodo anterior) * 100.<br>
+Objetivo: Identificar tendencias de mejora o declive en la calidad de los distintos tipos de servicios.<br><br>
+
+<h4>Variación Porcentual del Promedio del Indice de Sentimiento:</h4>
+Definición: Evalua la distribucion de la variación en el promedio del indice de sentimiento de las reseñas.<br>
+Fórmula: ((Promedio del Indice de Sentimiento del periodo actual - Promedio del Indice de Sentimiento del periodo anterior) / Promedio del Indice de Sentimiento del periodo anterior) * 100.<br>
+Objetivo: Identificar cambios en la percepción de los usuarios en diferentes categorías y estados.<br><br>
+
+
+<h2>Recopilación y Fuentes de Datos</h2>
+Datos Estáticos de Google Maps (Henry)<br>
+Datos Estáticos de Yelp (Henry)<br>
 Datos de Web Scraping (Wikipedia)
 
 <h2>Stack tecnológico</h2>
@@ -67,25 +87,15 @@ Google Drive: Servicio de Google para alma de forma provisoria nuestros archivos
 AWS: Plataforma de computación en la nube que ofrece una amplia gama de servicios de infraestructura y aplicaciones en la nube<br>
 Airflow: Plataforma para automatización de flujos de trabajo<br>
 Python: Lenguaje de programación usado para ciencia de datos<br>
-Pandas: Libreria escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
+Pandas: Librería escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
 Spark: Marco de procesamiento de datos en clúster de grandes volumenes de datos<br>
 PySpark: Interfaz de programación en Python para Apache Spark<br>
 Koalas: Librería que combina la simplicidad de Pandas con el poder de Spark<br>
-Matplotlib: Libreria en Python para crear visualizaciones de nuestros datos<br>
-Seaborn: Libreria de visualización de datos de Python basada en matplotlib<br>
-Scikit-learn: Libreria de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
+Matplotlib: Librería en Python para crear visualizaciones de nuestros datos<br>
+Seaborn: Librería de visualización de datos de Python basada en matplotlib<br>
+Scikit-learn: Librería de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
 TensorFlow: Biblioteca de aprendizaje automático y redes neuronales<br>
+NLTK: Librería para el procesamiento del lenguaje natural especializada en textos <br>
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
-
-
-
-
-
-
-
-
-
-
-
