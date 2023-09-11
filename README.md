@@ -99,3 +99,9 @@ NLTK: Librería para el procesamiento del lenguaje natural especializada en text
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
+
+
+https://github.com/BrianMasat/PG_Google_Yelp/assets/129197307/1a640df5-2a53-4fc7-91e3-fe55bf376f3e
+
+
+
