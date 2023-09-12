@@ -1,10 +1,9 @@
-﻿Diccionario de datos
+## **Estructura de Datos**
+
+## Google Maps
 
 
-Google Maps
-
-
-metadata_sitios
+### metadata_sitios
 La carpeta tiene 11 archivos .json donde se dispone la metadata contiene información del comercio, incluyendo localización, atributos y categorías.
 
 
@@ -46,7 +45,7 @@ La carpeta tiene 11 archivos .json donde se dispone la metadata contiene informa
     b:0x5c7b18bbf6ec4f7e?authuser=-1&hl=en&gl=us'
 
 
-review-estados    
+### review-estados    
 Los archivos donde se disponibiliza las reviews de los usuarios (51 carpetas, 1 por cada estado de USA, con varios archivos .json cada uno) se conforman de la siguiente manera 
      
      // 'user_id': '101463350189962023774', 
@@ -75,10 +74,10 @@ Los archivos donde se disponibiliza las reviews de los usuarios (51 carpetas, 1 
 
 
    
-Dataset de Yelp!
+## Dataset de Yelp
 
 
-business.pkl 
+### business.pkl 
 
 
 Contiene información del comercio, incluyendo localización, atributos y categorías.
@@ -160,7 +159,7 @@ Contiene información del comercio, incluyendo localización, atributos y catego
     "Saturday": "10:00-21:00"
 
 
-review.json 
+### review.json 
 
 
 Contiene las reseñas completas, incluyendo el user_id que escribió el review y el business_id por el cual se escribe la reseña
@@ -202,7 +201,8 @@ Contiene las reseñas completas, incluyendo el user_id que escribió el review y
 "cool": 0
 
 
-user.parquet
+### user.parquet
+
  Data del usuario incluyendo referencias a otros usuarios amigos y a toda la metadata asociada al usuario.
 
 
@@ -301,7 +301,7 @@ user.parquet
 "compliment_photos": 50
 
 
-checkin.json 
+### checkin.json 
 
 
 Registros en el negocio.
@@ -315,7 +315,7 @@ Registros en el negocio.
 "date": "2016-04-26 19:49:16, 2016-08-30 18:36:57, 2016-10-15 02:45:18, 2016-11-18 01:54:50, 2017-04-20 18:39:06, 2017-05-03 17:58:02"
 
 
-tip.json
+### tip.json
 
 
  Tips (consejos) escritos por el usuario. Los tips son más cortas que las reseñas y tienden a dar sugerencias rápidas.
