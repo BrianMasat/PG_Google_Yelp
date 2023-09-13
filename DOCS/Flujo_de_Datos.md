@@ -1,6 +1,6 @@
 <h1 style="color:red"><center>Flujo de Datos</center></h1>
 
-[![Flujo-De-Trabajo.png](https://i.postimg.cc/dtGFDrW4/Flujo-De-Trabajo.png)](https://postimg.cc/ppV46hMF)
+[![programador-de-tareas-ico.png](https://i.postimg.cc/JnsbhGj6/programador-de-tareas-ico.png)](https://postimg.cc/7GyCsPs0)
 
 
 

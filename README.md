@@ -80,21 +80,25 @@ Datos de Web Scraping (Wikipedia)
 <h2>Stack tecnológico</h2>
 
 [![stack-tecnologico.jpg](https://i.postimg.cc/ryRG7jyq/stack-tecnologico.jpg)](https://postimg.cc/5j1FCwFr)
+<br><br>
 Git: Sistema de control de versiones distribuido, para el seguimiento de cambios en el código fuente<br>
 Github: Alojamiento de nuestro repositorio<br>
 Visual Studio Code: Software para trabajar de forma local en el proyecto<br>
-Google Drive: Servicio de Google para alma de forma provisoria nuestros archivos<br>
+Google Drive: Servicio de Google para almacenar de forma diversos tipos de archivos<br>
 AWS: Plataforma de computación en la nube que ofrece una amplia gama de servicios de infraestructura y aplicaciones en la nube<br>
-Airflow: Plataforma para automatización de flujos de trabajo<br>
+Amazon s3: Servicio de almacenamiento escalable y seguro de objetos en la nube de Amazon Web Services (AWS)<br>
+Boto3: Biblioteca de Python que permite interactuar con servicios de AWS (Amazon Web Services) de manera programática<br>
+Programador de Tareas: Aplicación para automatización flujos de trabajo de Windows<br>
 Python: Lenguaje de programación usado para ciencia de datos<br>
 Pandas: Librería escrita para el lenguaje Python para la manipulación y el análisis de datos<br>
 Spark: Marco de procesamiento de datos en clúster de grandes volumenes de datos<br>
 PySpark: Interfaz de programación en Python para Apache Spark<br>
 Koalas: Librería que combina la simplicidad de Pandas con el poder de Spark<br>
+Beautiful Soup: Biblioteca de Python para analizar y extraer información de documentos HTML y XML de manera sencilla<br>
 Matplotlib: Librería en Python para crear visualizaciones de nuestros datos<br>
 Seaborn: Librería de visualización de datos de Python basada en matplotlib<br>
-Scikit-learn: Librería de aprendizaje automático de código abierto para el lenguaje de programación Python<br>
-TensorFlow: Biblioteca de aprendizaje automático y redes neuronales<br>
+PySpark.ML: Librería de aprendizaje automático de alto rendimiento para PySpark<br>
+Alternating Least Squarze: Método de factorización matricial para recomendaciones de filtrado colaborativo<br>
 NLTK: Librería para el procesamiento del lenguaje natural especializada en textos <br>
 
 <h2>Aclaración:</h2>
