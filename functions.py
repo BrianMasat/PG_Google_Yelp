@@ -3,8 +3,8 @@ from pyspark.ml.recommendation import ALSModel
 import pandas as pd
 
 import os
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-1.8.0-openjdk-amd64"
-os.environ["SPARK_HOME"] = "/content/spark-2.4.8-bin-hadoop2.7"
+#os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+#os.environ["SPARK_HOME"] = "/content/spark-2.4.8-bin-hadoop2.7"
 import findspark
 findspark.init()
 import pyspark
