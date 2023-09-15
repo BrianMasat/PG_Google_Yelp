@@ -1,6 +1,6 @@
 pandas
 numpy
-pyspark==2.4.8
+pyspark==3.2.4
 findspark
 fastapi
 uvicorn

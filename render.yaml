@@ -1,0 +1,4 @@
+buildCommand: |
+  apt-get install openjdk-8-jdk-headless -qq > /dev/null
+  wget -q https://downloads.apache.org/spark/spark-3.2.4/spark-3.2.4-bin-hadoop2.7.tgz
+  tar xf spark-3.2.4-bin-hadoop2.7.tgz
