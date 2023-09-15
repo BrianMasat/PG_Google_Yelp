@@ -1,41 +1,34 @@
+from pyspark.sql import functions as F
+from pyspark.ml.recommendation import ALSModel
 import pandas as pd
+
+import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+os.environ["SPARK_HOME"] = "/content/spark-2.4.8-bin-hadoop2.7"
 import findspark
 findspark.init()
 import pyspark
-findspark.find()
 
-import os
-from functools import reduce
-import pyspark
-from pyspark.sql import Row
-from pyspark.sql import functions as F
-from pyspark import SparkContext, SparkConf
+from pyspark import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.ml.recommendation import ALSModel
 
-conf = SparkConf().setAppName('appName').setMaster('local') \
-    .set("spark.network.timeout", "600s") \
-    .set("spark.driver.memory", "12g") \
-    .set("spark.executor.memory", "10g") \
-    .set("spark.executor.cores", "4") \
-    .set("spark.dynamicAllocation.maxExecutors", "2")
+sc = pyspark.SparkContext('local[*]')
 
-sc = SparkContext(conf=conf)
-spark = SparkSession(sc)
+spark = SparkSession.builder.master("local").getOrCreate()
 
 loaded_model = ALSModel.load("modelo_als")
+business_names = pd.read_parquet("business_names.parquet")
 
 def get_recommendations(user_id):
     user_df = spark.createDataFrame([(user_id,)], ["user_id_int"])
-
     user_recs = loaded_model.recommendForUserSubset(user_df, 10)
-
-    user_recs_pandas = user_recs.toPandas()
-
+    a = user_recs.select("recommendations")
+    rows = a.collect()
     recommendations_dict = {}
-    for row in user_recs_pandas.itertuples():
-        user_id = row.user_id_int
-        recommendations = [(int(rec.business_id), float(rec.rating)) for rec in row.recommendations]
-        recommendations_dict[user_id] = recommendations
+    for row in rows:
+        recommendations_dict.update(dict(row.recommendations))
 
-    return recommendations_dict
+    keys = recommendations_dict.keys()
+    top10_recs = business_names[business_names['business_id_int'].isin(keys)]['business_name'].tolist()
+    names_list = top10_recs[:10]
+    return names_list
