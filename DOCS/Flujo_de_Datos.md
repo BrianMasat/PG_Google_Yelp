@@ -1,6 +1,6 @@
 <h1 style="color:red"><center>Flujo de Datos</center></h1>
 
-[![Flujo-De-Trabajo.png](https://i.postimg.cc/dtGFDrW4/Flujo-De-Trabajo.png)](https://postimg.cc/ppV46hMF)
+[![programador-de-tareas-ico.png](https://i.postimg.cc/JnsbhGj6/programador-de-tareas-ico.png)](https://postimg.cc/7GyCsPs0)
 
 
 
@@ -36,8 +36,5 @@ Esta etapa involucra la evaluación de modelos, la comparación de su rendimient
 <h4>API y Renderizado con FastAPI y Render:</h4> 
 Se desarrolla una API utilizando FastAPI para proporcionar acceso a los resultados del análisis y los modelos de machine learning. La API se conecta con la visualización y el renderizado de datos, lo que permite a los usuarios interactuar con los resultados a través de interfaces web amigables.
 
-<h4>Orquestado por Airflow:</h4> 
-Una plataforma de programación y gestión de flujos de trabajo. Airflow automatiza y coordina las tareas de procesamiento, análisis y modelado, garantizando una ejecución eficiente y programada de todo el proceso.
-<br><br>
 
 https://github.com/BrianMasat/PG_Google_Yelp/assets/129197307/1a640df5-2a53-4fc7-91e3-fe55bf376f3e
