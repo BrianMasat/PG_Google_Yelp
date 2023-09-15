@@ -1,0 +1,6 @@
+pandas
+numpy
+pyspark==2.4.8
+findspark
+fastapi
+uvicorn
