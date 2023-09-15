@@ -1,7 +1,13 @@
-buildCommand: |
-  apt-get install openjdk-8-jdk-headless -qq > /dev/null
-  wget -q https://archive.apache.org/dist/spark/spark-2.4.8/spark-2.4.8-bin-hadoop2.7.tgz
-  tar xf spark-2.4.8-bin-hadoop2.7.tgz
-  export SPARK_HOME=$(find / -name "spark-2.4.8-bin-hadoop2.7" -type d)
-  export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
-  export PATH=$PATH:$SPARK_HOME/bin:$JAVA_HOME/bin
+jobs:
+  - name: build
+    steps:
+      - name: Set up Java
+        run: |
+          apt-get install -y openjdk-8-jdk-headless
+          export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
+          export PATH=$PATH:$JAVA_HOME/bin
+      - name: Install Spark
+        run: |
+          wget -q https://archive.apache.org/dist/spark/spark-2.4.8/spark-2.4.8-bin-hadoop2.7.tgz
+          tar xf spark-2.4.8-bin-hadoop2.7.tgz
+          export SPARK_HOME=$(pwd)/spark-2.4.8-bin-hadoop2.7
