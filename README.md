@@ -100,6 +100,7 @@ Seaborn: Librería de visualización de datos de Python basada en matplotlib<br>
 PySpark.ML: Librería de aprendizaje automático de alto rendimiento para PySpark<br>
 Alternating Least Squarze: Método de factorización matricial para recomendaciones de filtrado colaborativo<br>
 NLTK: Librería para el procesamiento del lenguaje natural especializada en textos <br>
+Power BI: Herramienta de análisis de datos de Microsoft que crea visualizaciones interactivas y toma decisiones informadas <br>
 
 <h2>Aclaración:</h2>
 Es fundamental comprender que éste proyecto tiene un enfoque educativo, simulando un ambiente laboral real para abordar diversas temáticas de manera didáctica. Los resultados y conclusiones obtenidos en el mismo no deben considerarse como base para tomar decisiones reales. 
