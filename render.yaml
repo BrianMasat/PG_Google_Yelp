@@ -3,9 +3,6 @@ buildCommand: |
   wget -q https://archive.apache.org/dist/spark/spark-2.4.8/spark-2.4.8-bin-hadoop2.7.tgz
   tar xf spark-2.4.8-bin-hadoop2.7.tgz
   export SPARK_HOME=$(find / -name "spark-2.4.8-bin-hadoop2.7" -type d)
-  export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
-  export PATH=$PATH:$SPARK_HOME/bin:$JAVA_HOME/bin
-
-render:
-  commands:
-    - $JAVA_HOME/bin/java -version
+  export PATH=$PATH:$SPARK_HOME/bin
+  export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
+  export PATH=$PATH:$JAVA_HOME/bin
