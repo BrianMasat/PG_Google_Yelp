@@ -5,3 +5,7 @@ buildCommand: |
   export SPARK_HOME=$(find / -name "spark-2.4.8-bin-hadoop2.7" -type d)
   export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
   export PATH=$PATH:$SPARK_HOME/bin:$JAVA_HOME/bin
+
+render:
+  commands:
+    - $JAVA_HOME/bin/java -version
